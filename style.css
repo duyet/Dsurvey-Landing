@@ -1,0 +1,198 @@
+
+a, .fa {
+  color: #0072BC;
+}
+body, p, li, h1, h2, h3, h4, h5 {
+  font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+p, li {
+  font-size: 150%
+}
+.small {
+  font-size: 60%;
+  font-weight: 300;
+}
+
+/*Logo*/
+#logo {
+  font-size: 134px;
+}
+
+/*Hero*/
+
+.hero {
+  background: #0072BC url(images/hero.png) 50% 50%;
+  color: #fff;
+}
+.hero-inner {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.hero h1, .hero h2, .hero p.lead, .hero h4, .hero-footer {
+  color: #fff;
+  padding: .75em 0;
+}
+.hero a, .hero a:visited, .hero a:hover {
+  color: #fff;
+}
+.hero a:hover {
+  text-decoration: none;
+}
+.hero img {
+  max-height: auto;
+  max-width: 200px;
+  width: 100%;
+}
+.signin {
+  padding-top: 20px;
+}
+.invite {
+  background: rgba(0, 0, 0, 0.40);
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.invite p {
+  font-size: 125%;
+}
+.request {
+  padding-bottom: 100px;
+  padding-top: 100px;  
+}
+
+/*Topics*/
+
+.topics {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.topics ul, .topics li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topics li {
+  padding: .25em 0;
+}
+p.topic {
+  color: #0072BC;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: -.03em;
+  opacity: .50;
+}
+.topics img {
+  height: auto;
+  width: 100%;
+}
+
+/*How/About*/
+
+.how {
+  background: #efefef;
+  padding-bottom: 50px;
+  padding-top: 40px; 
+}
+.how img {                                                                                                                                                                                            
+  height: auto;
+  width: 100%;
+}
+
+/*Buttons*/
+
+.hero .btn {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin-left: .25em;
+  margin-right: .25em;
+}
+.hero .btn:hover {
+  background: #fff;
+  color: #0072BC;
+  border: 1px solid #fff;
+}
+.btn-primary {
+  background: #0072bc;
+  border-color: #0072BC;
+}
+.btn-primary:hover {
+  background: #fff;
+  border-color: #0072BC;
+  color: #0072BC;
+}
+
+/*Icon sizes*/
+
+.fa-1 {
+  font-size: 2em !important;
+}
+.fa-2 {
+  font-size: 4em !important;
+}
+.fa-3 {
+  font-size: 6em !important;
+}
+.fa-4 {
+  font-size: 8em !important;
+}
+.fa-5 {
+  font-size: 10em !important;
+}
+
+
+/** Countdown */
+
+#countdown {
+  /* width: 770px; */
+  /* height: 120px; */
+  margin: 0 0 0 0;
+  text-align: center;
+  display: inline-block;
+}
+.dash {
+  width: 127px;
+  height: 125px;
+  background: transparent url(images/box.jpg) 0 0 no-repeat;
+  float: left;
+  margin-left: 20px;
+  position: relative;
+}
+
+.dash .digit {
+  font-size: 70px;
+  font-weight: bold;
+  float: left;
+  width: 45px;
+  text-align: center;
+  font-family: Arial;
+  color: #2f2e2e;
+  position: relative;
+  margin: 10px 0 0 13px;
+}
+
+.dash_title {
+  position: absolute;
+  display: block;
+  bottom: 0px;
+  text-align: center;
+  /* font-weight: bold; */
+  width: 127px;
+  font-size: 13px;
+  color: #2f2e2e;
+}
+
+/*Footer*/
+
+.footer {
+  color: #999;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.footer img {
+  height: auto;
+  max-width: 175px;
+  width: 100%;
+}
